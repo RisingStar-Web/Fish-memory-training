@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4F54B4B22EADAD900FCABB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F54B4A22EADAD900FCABB7 /* AppDelegate.swift */; };
+		D4F54B4D22EADAD900FCABB7 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F54B4C22EADAD900FCABB7 /* StartViewController.swift */; };
+		D4F54B5022EADAD900FCABB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F54B4E22EADAD900FCABB7 /* Main.storyboard */; };
+		D4F54B5222EADADA00FCABB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F54B5122EADADA00FCABB7 /* Assets.xcassets */; };
+		D4F54B5522EADADA00FCABB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F54B5322EADADA00FCABB7 /* LaunchScreen.storyboard */; };
+		D4F54B5D22EADB3000FCABB7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4F54B5C22EADB3000FCABB7 /* Localizable.strings */; };
+		D4F54B5F22EB40A500FCABB7 /* DataSourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F54B5E22EB40A500FCABB7 /* DataSourse.swift */; };
+		D4F54B6122EB40E700FCABB7 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F54B6022EB40E700FCABB7 /* ActionViewController.swift */; };
+		D4F54B6322EB410100FCABB7 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F54B6222EB410100FCABB7 /* GalleryViewController.swift */; };
+		D4F54B6522EB412200FCABB7 /* LightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F54B6422EB412200FCABB7 /* LightButton.swift */; };
+		D4F54B6722EB583400FCABB7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F54B6622EB583400FCABB7 /* CardView.swift */; };
+		D4F54B6922EB59EB00FCABB7 /* CardViewSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F54B6822EB59EB00FCABB7 /* CardViewSecond.swift */; };
+		D4F54B6B22EB5C6300FCABB7 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F54B6A22EB5C6300FCABB7 /* Localized.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4F54B4722EADAD900FCABB7 /* Fish memory training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fish memory training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F54B4A22EADAD900FCABB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4F54B4C22EADAD900FCABB7 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		D4F54B4F22EADAD900FCABB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4F54B5122EADADA00FCABB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4F54B5422EADADA00FCABB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4F54B5622EADADA00FCABB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4F54B5C22EADB3000FCABB7 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D4F54B5E22EB40A500FCABB7 /* DataSourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourse.swift; sourceTree = "<group>"; };
+		D4F54B6022EB40E700FCABB7 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		D4F54B6222EB410100FCABB7 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		D4F54B6422EB412200FCABB7 /* LightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightButton.swift; sourceTree = "<group>"; };
+		D4F54B6622EB583400FCABB7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D4F54B6822EB59EB00FCABB7 /* CardViewSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewSecond.swift; sourceTree = "<group>"; };
+		D4F54B6A22EB5C6300FCABB7 /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4F54B4422EADAD900FCABB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4F54B3E22EADAD900FCABB7 = {
+			isa = PBXGroup;
+			children = (
+				D4F54B4922EADAD900FCABB7 /* Fish memory training */,
+				D4F54B4822EADAD900FCABB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4F54B4822EADAD900FCABB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4F54B4722EADAD900FCABB7 /* Fish memory training.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4F54B4922EADAD900FCABB7 /* Fish memory training */ = {
+			isa = PBXGroup;
+			children = (
+				D4F54B5C22EADB3000FCABB7 /* Localizable.strings */,
+				D4F54B4A22EADAD900FCABB7 /* AppDelegate.swift */,
+				D4F54B4C22EADAD900FCABB7 /* StartViewController.swift */,
+				D4F54B6022EB40E700FCABB7 /* ActionViewController.swift */,
+				D4F54B6222EB410100FCABB7 /* GalleryViewController.swift */,
+				D4F54B5E22EB40A500FCABB7 /* DataSourse.swift */,
+				D4F54B6622EB583400FCABB7 /* CardView.swift */,
+				D4F54B6A22EB5C6300FCABB7 /* Localized.swift */,
+				D4F54B6822EB59EB00FCABB7 /* CardViewSecond.swift */,
+				D4F54B6422EB412200FCABB7 /* LightButton.swift */,
+				D4F54B4E22EADAD900FCABB7 /* Main.storyboard */,
+				D4F54B5122EADADA00FCABB7 /* Assets.xcassets */,
+				D4F54B5322EADADA00FCABB7 /* LaunchScreen.storyboard */,
+				D4F54B5622EADADA00FCABB7 /* Info.plist */,
+			);
+			path = "Fish memory training";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4F54B4622EADAD900FCABB7 /* Fish memory training */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4F54B5922EADADA00FCABB7 /* Build configuration list for PBXNativeTarget "Fish memory training" */;
+			buildPhases = (
+				D4F54B4322EADAD900FCABB7 /* Sources */,
+				D4F54B4422EADAD900FCABB7 /* Frameworks */,
+				D4F54B4522EADAD900FCABB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fish memory training";
+			productName = "Fish memory training";
+			productReference = D4F54B4722EADAD900FCABB7 /* Fish memory training.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4F54B3F22EADAD900FCABB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = fish;
+				TargetAttributes = {
+					D4F54B4622EADAD900FCABB7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D4F54B4222EADAD900FCABB7 /* Build configuration list for PBXProject "Fish memory training" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4F54B3E22EADAD900FCABB7;
+			productRefGroup = D4F54B4822EADAD900FCABB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4F54B4622EADAD900FCABB7 /* Fish memory training */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4F54B4522EADAD900FCABB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F54B5522EADADA00FCABB7 /* LaunchScreen.storyboard in Resources */,
+				D4F54B5D22EADB3000FCABB7 /* Localizable.strings in Resources */,
+				D4F54B5222EADADA00FCABB7 /* Assets.xcassets in Resources */,
+				D4F54B5022EADAD900FCABB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4F54B4322EADAD900FCABB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F54B6922EB59EB00FCABB7 /* CardViewSecond.swift in Sources */,
+				D4F54B6522EB412200FCABB7 /* LightButton.swift in Sources */,
+				D4F54B6122EB40E700FCABB7 /* ActionViewController.swift in Sources */,
+				D4F54B4D22EADAD900FCABB7 /* StartViewController.swift in Sources */,
+				D4F54B6B22EB5C6300FCABB7 /* Localized.swift in Sources */,
+				D4F54B6322EB410100FCABB7 /* GalleryViewController.swift in Sources */,
+				D4F54B5F22EB40A500FCABB7 /* DataSourse.swift in Sources */,
+				D4F54B4B22EADAD900FCABB7 /* AppDelegate.swift in Sources */,
+				D4F54B6722EB583400FCABB7 /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4F54B4E22EADAD900FCABB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4F54B4F22EADAD900FCABB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4F54B5322EADADA00FCABB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4F54B5422EADADA00FCABB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4F54B5722EADADA00FCABB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4F54B5822EADADA00FCABB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4F54B5A22EADADA00FCABB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KVD9Z83VYJ;
+				INFOPLIST_FILE = "Fish memory training/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memory.Fish.memory.training;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D4F54B5B22EADADA00FCABB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KVD9Z83VYJ;
+				INFOPLIST_FILE = "Fish memory training/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memory.Fish.memory.training;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4F54B4222EADAD900FCABB7 /* Build configuration list for PBXProject "Fish memory training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4F54B5722EADADA00FCABB7 /* Debug */,
+				D4F54B5822EADADA00FCABB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4F54B5922EADADA00FCABB7 /* Build configuration list for PBXNativeTarget "Fish memory training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4F54B5A22EADADA00FCABB7 /* Debug */,
+				D4F54B5B22EADADA00FCABB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4F54B3F22EADAD900FCABB7 /* Project object */;
+}
