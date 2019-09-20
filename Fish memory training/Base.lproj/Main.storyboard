@@ -23,7 +23,7 @@
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rgc-i4-rUB">
                                 <rect key="frame" x="20" y="209" width="373" height="478"/>
-                                <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="0.60164276541095896" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <integer key="value" value="25"/>
@@ -32,7 +32,7 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uat-DQ-U9E">
                                 <rect key="frame" x="20" y="98" width="374" height="85"/>
-                                <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="0.60164276539999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <integer key="value" value="15"/>
@@ -41,7 +41,7 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V3v-H6-JfE">
                                 <rect key="frame" x="98" y="797" width="217" height="65"/>
-                                <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="0.60164276539999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.23854858909271986" green="0.98829740290000001" blue="0.23487434255702813" alpha="0.60164276539999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <integer key="value" value="5"/>
@@ -65,7 +65,7 @@
                                     <constraint firstAttribute="height" constant="35" id="0pY-5F-Ou2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="2" height="2"/>
@@ -76,7 +76,7 @@
                                     <constraint firstAttribute="height" constant="35" id="ynk-Mr-Edr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="2" height="2"/>
@@ -86,10 +86,11 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6LW-Jf-Xdn" customClass="LightButton" customModule="Fish_memory_training" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                                        <color key="backgroundColor" red="0.1962971687" green="0.84441775080000003" blue="0.29615724090000001" alpha="0.6504441352739726" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <size key="titleShadowOffset" width="2" height="2"/>
                                         <state key="normal" title="START">
-                                            <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -98,10 +99,11 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Lb-4U-5Jy" customClass="LightButton" customModule="Fish_memory_training" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="90" width="320" height="80"/>
+                                        <color key="backgroundColor" red="0.20195681633106877" green="0.84441775080000003" blue="0.29524755571068229" alpha="0.6504441352739726" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <size key="titleShadowOffset" width="2" height="2"/>
                                         <state key="normal" title="GALLERY">
-                                            <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -110,10 +112,11 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOP-jt-qjA" customClass="LightButton" customModule="Fish_memory_training" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="180" width="320" height="80"/>
+                                        <color key="backgroundColor" red="0.21379498083989179" green="0.84441775080000003" blue="0.30429681538604536" alpha="0.6504441352739726" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <size key="titleShadowOffset" width="2" height="2"/>
                                         <state key="normal" title="RESET">
-                                            <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -209,7 +212,7 @@
                                         <size key="shadowOffset" width="2" height="2"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="0.60164276539999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.18301559557715588" green="0.98829740290000001" blue="0.11453318036390676" alpha="0.5408550941780822" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="n4T-Uy-KJS" firstAttribute="centerX" secondItem="Dwh-Ba-Fde" secondAttribute="centerX" id="BI1-YW-sut"/>
                                     <constraint firstItem="n4T-Uy-KJS" firstAttribute="leading" secondItem="Dwh-Ba-Fde" secondAttribute="leading" constant="12" id="hMn-di-mb3"/>
@@ -377,7 +380,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bg" width="4240" height="2832"/>
+        <image name="bg" width="615" height="410"/>
         <image name="heart" width="128" height="128"/>
     </resources>
 </document>
